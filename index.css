@@ -1,0 +1,40 @@
+body {
+	animation: bg;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	font-family: sans-serif;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+
+@keyframes bg {
+	0% {
+		background: rgb(81, 45, 138);
+	}
+
+	25% {
+		background: rgb(138, 90, 35);
+	}
+
+	50% {
+		background: rgb(160, 47, 85);
+	}
+
+	75% {
+		background: rgb(23, 114, 64);
+	}
+
+	100% {
+		background: rgb(81, 45, 138);
+	}
+}
+
+img {
+	width: 25vw;
+}
